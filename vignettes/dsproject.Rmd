@@ -1,0 +1,28 @@
+---
+title: "dsproject"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dsproject}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+#Introduction 
+
+The package `dsproject` allows one to import data set of  different file types. It creates new projects in the specified directory as well as subdirectories, a readme file, and aids in the installation of other packages.
+
+```{r setup}
+library(dsproject)
+# make_project("newproject")
+
+import("C:/Users/ascol/Downloads/testdata.csv")
+
+use(usethis)
+```
