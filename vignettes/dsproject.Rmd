@@ -18,9 +18,10 @@ knitr::opts_chunk$set(
 
 The package `dsproject` allows one to import data set of  different file types. It creates new projects in the specified directory as well as subdirectories, a readme file, and aids in the installation of other packages.
 
-```{r setup}
+```{r setup, eval =FALSE}
 library(dsproject)
-# make_project("newproject")
+
+make_project("newproject")
 
 import("C:/Users/ascol/Downloads/testdata.csv")
 

@@ -3,3 +3,8 @@
 export(import)
 export(make_project)
 export(use)
+import("haven,")
+import("readxl,")
+import("tools,")
+import(usethis)
+import(vroom)

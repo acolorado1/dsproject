@@ -1,12 +1,13 @@
-#' Install new packages
+#' @title Install new packages
 #'
-#' Similar to library but if the package is not yet loaded will ask user whether or not they want to load the package.
+#' @description Installs new packages to be used into the project.
+#' @details Similar to library but if the package is not yet loaded will ask user whether or not they want to load the package.
 #'
 #' @param pkg package name
 #' @export
 #'
 #' @examples
-#' use(ggplot2)
+#' \dontrun{ use(ggplot2)}
 use <- function(pkg) {
   pkg <- as.character(substitute(pkg))
   if (!suppressWarnings(require(pkg, character.only = TRUE))) {

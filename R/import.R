@@ -1,13 +1,16 @@
-#' Import new data sets
+#' @title Import new data sets
 #'
-#' Imports files into R, can read in multiple file types.
+#' @description Imports data sets into R
+#' @details Can import files of multiple type into the global environment.
 #'
 #' @param file name of file
 #' @param ... extra specification for file import
+#' @import tools, haven, readxl, vroom
+#' @seealso \code{\link{haven}}
 #' @export
 #' @return a data set in the environment
 #' @examples
-#' import("C:/Users/ascol/Downloads/testdata.csv")
+#' \dontrun{ import("C:/Users/ascol/Downloads/testdata.csv")}
 #'
 import <- function(file, ...){
 

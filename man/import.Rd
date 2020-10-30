@@ -15,9 +15,15 @@ import(file, ...)
 a data set in the environment
 }
 \description{
-Imports files into R, can read in multiple file types.
+Imports data sets into R
+}
+\details{
+Can import files of multiple type into the global environment.
 }
 \examples{
-import("C:/Users/ascol/Downloads/testdata.csv")
+\dontrun{ import("C:/Users/ascol/Downloads/testdata.csv")}
 
+}
+\seealso{
+\code{\link{haven}}
 }

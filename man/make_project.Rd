@@ -2,7 +2,7 @@
 % Please edit documentation in R/make_project.R
 \name{make_project}
 \alias{make_project}
-\title{Create new projects in R studio}
+\title{Create new project in R studio}
 \usage{
 make_project(
   project,
@@ -27,8 +27,11 @@ make_project(
 Returns a new project placed in the current working directory
 }
 \description{
-Funcion creates a new project in R
+User creates new project with name of their choosing
+}
+\details{
+User can can create a new project, specify the directory its located in, create subdirectories, create a readme file, and specify whether or not they want a git repository
 }
 \examples{
-make_project("newproject")
+\dontrun{ make_project("newproject")}
 }

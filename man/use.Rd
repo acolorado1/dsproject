@@ -10,8 +10,11 @@ use(pkg)
 \item{pkg}{package name}
 }
 \description{
+Installs new packages to be used into the project.
+}
+\details{
 Similar to library but if the package is not yet loaded will ask user whether or not they want to load the package.
 }
 \examples{
-use(ggplot2)
+\dontrun{ use(ggplot2)}
 }

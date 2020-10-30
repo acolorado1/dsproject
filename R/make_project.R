@@ -1,17 +1,18 @@
-#' Create new projects in R studio
+#' @title Create new project in R studio
 #'
-#' Funcion creates a new project in R
+#' @description User creates new project with name of their choosing
+#' @details User can can create a new project, specify the directory its located in, create subdirectories, create a readme file, and specify whether or not they want a git repository
 #'
 #' @param project name of new project
 #' @param path gets working directory unless user specifies otherwise
 #' @param folders list of subdirectories called figures, documentation, data, reports, and R
 #' @param readme creates a readme file
 #' @param git creates a git repository for the new project should the user make parameter equal TRUE
-#'
+#' @import usethis
 #' @export
 #' @return Returns a new project placed in the current working directory
 #' @examples
-#' make_project("newproject")
+#' \dontrun{ make_project("newproject")}
 make_project <- function (project,
                   path = getwd(),
                   folders = c("figures", "documentation",

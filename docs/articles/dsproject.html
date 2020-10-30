@@ -84,30 +84,12 @@
 <p>The package <code>dsproject</code> allows one to import data set of different file types. It creates new projects in the specified directory as well as subdirectories, a readme file, and aids in the installation of other packages.</p>
 <div class="sourceCode" id="cb1"><pre class="downlit">
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">dsproject</span><span class="op">)</span>
-<span class="co"># make_project("newproject")</span>
+
+<span class="fu"><a href="../reference/make_project.html">make_project</a></span><span class="op">(</span><span class="st">"newproject"</span><span class="op">)</span>
 
 <span class="fu"><a href="../reference/import.html">import</a></span><span class="op">(</span><span class="st">"C:/Users/ascol/Downloads/testdata.csv"</span><span class="op">)</span>
-<span class="co">#&gt; Rows: 7</span>
-<span class="co">#&gt; Columns: 6</span>
-<span class="co">#&gt; Delimiter: ","</span>
-<span class="co">#&gt; chr [2]: Marital, Race</span>
-<span class="co">#&gt; dbl [4]: Age, Score1, Score2, Score3</span>
-<span class="co">#&gt; </span>
-<span class="co">#&gt; Use `spec()` to retrieve the guessed column specification</span>
-<span class="co">#&gt; Pass a specification to the `col_types` argument to quiet this message</span>
-<span class="co">#&gt; # A tibble: 7 x 6</span>
-<span class="co">#&gt;     Age Marital Race  Score1 Score2 Score3</span>
-<span class="co">#&gt;   &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;</span>
-<span class="co">#&gt; 1    25 M       B          1      4      1</span>
-<span class="co">#&gt; 2    24 D       B          2      3      2</span>
-<span class="co">#&gt; 3    42 S       W          3      5      3</span>
-<span class="co">#&gt; 4    56 S       W          2      2      4</span>
-<span class="co">#&gt; 5    75 M       A          4    999      5</span>
-<span class="co">#&gt; 6    99 D       W          3      6      6</span>
-<span class="co">#&gt; 7   999 M       A          1     NA      7</span>
 
-<span class="fu"><a href="../reference/use.html">use</a></span><span class="op">(</span><span class="va">usethis</span><span class="op">)</span>
-<span class="co">#&gt; Loading required package: usethis</span></pre></div>
+<span class="fu"><a href="../reference/use.html">use</a></span><span class="op">(</span><span class="va">usethis</span><span class="op">)</span></pre></div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
