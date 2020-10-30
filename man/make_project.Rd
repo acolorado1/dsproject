@@ -33,5 +33,5 @@ User creates new project with name of their choosing
 User can can create a new project, specify the directory its located in, create subdirectories, create a readme file, and specify whether or not they want a git repository
 }
 \examples{
-\dontrun{ make_project("newproject")}
+\dontrun{make_project("newproject")}
 }

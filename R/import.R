@@ -9,9 +9,7 @@
 #' @seealso \code{\link{haven}}
 #' @export
 #' @return a data set in the environment
-#' @examples
-#' \dontrun{ import("C:/Users/ascol/Downloads/testdata.csv")}
-#'
+#' @examples \dontrun{import("C:/Users/ascol/Downloads/testdata.csv")}
 import <- function(file, ...){
 
   # if no file specified, prompt user

@@ -21,8 +21,7 @@ Imports data sets into R
 Can import files of multiple type into the global environment.
 }
 \examples{
-\dontrun{ import("C:/Users/ascol/Downloads/testdata.csv")}
-
+\dontrun{import("C:/Users/ascol/Downloads/testdata.csv")}
 }
 \seealso{
 \code{\link{haven}}

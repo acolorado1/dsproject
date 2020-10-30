@@ -11,8 +11,7 @@
 #' @import usethis
 #' @export
 #' @return Returns a new project placed in the current working directory
-#' @examples
-#' \dontrun{ make_project("newproject")}
+#' @examples \dontrun{make_project("newproject")}
 make_project <- function (project,
                   path = getwd(),
                   folders = c("figures", "documentation",

@@ -16,5 +16,5 @@ Installs new packages to be used into the project.
 Similar to library but if the package is not yet loaded will ask user whether or not they want to load the package.
 }
 \examples{
-\dontrun{ use(ggplot2)}
+\dontrun{use(ggplot2)}
 }

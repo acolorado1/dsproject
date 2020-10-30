@@ -6,8 +6,7 @@
 #' @param pkg package name
 #' @export
 #'
-#' @examples
-#' \dontrun{ use(ggplot2)}
+#' @examples \dontrun{use(ggplot2)}
 use <- function(pkg) {
   pkg <- as.character(substitute(pkg))
   if (!suppressWarnings(require(pkg, character.only = TRUE))) {
