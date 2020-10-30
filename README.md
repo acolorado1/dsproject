@@ -1,6 +1,6 @@
 # Creating new packages, importing dataset, and installing new packages
 
-![dsproject](dsproject.png)
+![dsproject](dsproject.jpg)
 
 <br>
 This package helps one create new projects in R studio, import data sets, and install new packages.
